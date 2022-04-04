@@ -1,0 +1,89 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: 新版本的 ONTAP 云引入了新功能，增强功能和错误修复。 
+---
+= ONTAP Cloud 9.3 中的新增功能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ONTAP Cloud 9.3 包括多项新功能和增强功能。
+
+
+
+== AWS 中的 ONTAP 云 HA 增强功能
+
+9.3 版介绍了 ONTAP 云 HA 对的故障恢复能力，可以在 AWS 生态系统中承受网络故障或瞬时较高的延迟，并确保客户数据在此类事件期间可用。
+
+
+
+== 支持 AWS 中的欧盟（巴黎）地区
+
+ONTAP 云现在在 AWS 的欧盟（巴黎）地区受支持。根据此区域支持的实例类型，欧盟（巴黎）地区提供了以下 ONTAP 云配置：
+
+* ONTAP 云标准（ R4.xlarge ）
+* ONTAP 云高级版（ r4.2xlarge ）
+* ONTAP 云 BYOL （ r4.xlarge 和 r4.2xlarge ）
+
+
+
+
+== 增强了 Azure Premium 磁盘的写入性能
+
+使用高级存储磁盘时， ONTAP 云的写入性能已在 Azure 中得到提高。ONTAP 云标准版，高级版和 BYOL 支持此增强功能。
+
+
+NOTE: 使用 DS3_v2 虚拟机类型时，不支持写入性能增强功能。
+
+
+
+== 增加了 Azure 中 ONTAP 云高级版和 BYOL 的容量限制
+
+使用 DS5_v2 或 DS14_v2 虚拟机类型时， ONTAP 云高级版和 ONTAP 云 BYOL 的容量限制已增加一倍，达到 252 TB 。
+
+
+NOTE: 之所以能够进行此更改，是因为每个 Azure 虚拟机的可用磁盘数量有所增加。它不会更改每个聚合的最大容量。
+
+
+
+== 支持 Azure US Gov 地区
+
+现在，您可以在以下 Azure 地区部署 Cloud Manager 和 ONTAP Cloud BYOL ：
+
+* 美国亚利桑那州政府
+* 美国政府德克萨斯
+* 美国弗吉尼亚州
+
+
+要在这些地区部署 Cloud Manager ，您必须从 Azure Marketplace 创建 CentOS 7.3 虚拟机，从 NetApp 支持站点下载 Cloud Manager 安装程序，然后安装软件。运行 Cloud Manager 后，您可以像任何其他区域一样在这些区域部署 ONTAP 云 BYOL 系统。
+
+
+
+== 支持 SVM 灾难恢复
+
+ONTAP 云支持一个提供数据的 SVM 和一个用于灾难恢复的目标 SVM 。如果源 SVM 发生中断，您可以激活目标 SVM 以进行数据访问。
+
+SVM 灾难恢复是将 SVM 数据和配置从源 SVM 异步镜像到目标 SVM 的过程。如果源 SVM 不再可用，您可以快速激活目标 SVM 以进行数据访问。
+
+
+NOTE: Cloud Manager 不为 SVM 灾难恢复提供任何设置或业务流程支持。它也不支持在任何其他 SVM 上执行与存储相关的任务。必须使用 System Manager 或 CLI 进行 SVM 灾难恢复。
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839856["《 SVM 灾难恢复准备快速指南》"^]
+
+https://library.netapp.com/ecm/ecm_get_file/ECMLP2839857["《 SVM 灾难恢复快速指南》"^]
+
+
+
+== 升级说明
+
+* 必须从 Cloud Manager 完成升级。您不应使用 System Manager 或命令行界面升级 ONTAP 云。这样做可能会影响系统稳定性。
+* 您可以从 ONTAP Cloud 9.2 升级到 ONTAP Cloud 9.3 。
+* 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
+* 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
+

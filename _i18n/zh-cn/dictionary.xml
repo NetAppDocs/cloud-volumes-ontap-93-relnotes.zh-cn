@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="4669e54cbde06e871d1db0add6ec40f1" category="summary">ONTAP 云在 AWS 和 Azure 中提供多种配置。</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="doc">支持的配置</block>
+  <block id="cac55cd41d3809cf2d0cf2d6fdec426f" category="paragraph">ONTAP 云在 AWS 和 Azure 中提供两种定价选项：按需购买和自带许可证（ BYOL ）。对于按需购买，您可以选择三种配置： Explore ， Standard 或 Premium 。</block>
+  <block id="2df4911835bcec0d8ce74ece219354a4" category="section-title">适用于 AWS 的 ONTAP 云</block>
+  <block id="ab719622baec6dfb2d651689498e5ffa" category="paragraph">在 AWS 中，您可以将 ONTAP 云部署为单个系统或 HA 对。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="cell"></block>
+  <block id="1819001b72329e2ef5799fe504238035" category="cell">探索</block>
+  <block id="eb6d8ae6f20283755b339c0dc273988b" category="cell">标准</block>
+  <block id="8d5e7e72f12067991186cdf3cb7d5d9d" category="cell">高级版</block>
+  <block id="b650b6a0e30782e5c59c3db6f2644347" category="cell">BYOL</block>
+  <block id="9c88bb419e41b475218165e62571062b" category="cell">EC2 实例类型</block>
+  <block id="b315e87fe13b3c2bfc23cd6e95c4d7d9" category="cell">m4.xlarge</block>
+  <block id="b4cd677d00e2a06b3556b8a40415f793" category="list-text">m4.2 倍大</block>
+  <block id="824948b89484cfc1904fd5a42bd21699" category="list-text">r4.xlarge</block>
+  <block id="c99d0382ccb24aa084764b2dd4e3b426" category="list-text">c4.4xlarge</block>
+  <block id="3f997ef144f48e4b699d961d57f3c225" category="list-text">c4.8xlarge</block>
+  <block id="44963cb40f2d3d493c1176db3813e069" category="list-text">m4.4xlarge</block>
+  <block id="e630bf936b5ba73baa7f14780de62d9e" category="list-text">r4.2 个大型</block>
+  <block id="a423c9d0cefd3f66a1caac02c8c7f0f9" category="cell">底层存储</block>
+  <block id="27ef3bb0cd014e90a9854a53907936ea" category="cell">通用 SSD ，已配置的 IOPS SSD ，吞吐量优化的 HDD 和冷 HDD ，每个磁盘最多 16 TiB</block>
+  <block id="1ac9dc96fca283317dbfa0018ffd6ebc" category="cell">许可证容量限制</block>
+  <block id="7916f32f06eaabdf61df576419c0c138" category="cell">2 TiB</block>
+  <block id="4a67bdd5f30eeac9ad064fc6433dc926" category="cell">10 TiB</block>
+  <block id="61dcfaac24363a16e4b318c1317f0309" category="cell">368 TiB</block>
+  <block id="7751129b8546a0da65fb379b1cc9c243" category="cell">每个许可证 368 TiB</block>
+  <block id="2a01d572b1447155c310cabafac3fae9" category="paragraph">注释：</block>
+  <block id="8977b73662bf68f481bf8915d2a4bbb8" category="list-text">GovCloud （美国）不支持按需购买配置。</block>
+  <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">选择 EC2 实例类型时，您可以指定它是共享实例还是专用实例。</block>
+  <block id="e2be4ad7f1e1203ba7f3d2af47d19fdd" category="list-text">在将 EBS SSD 与 ONTAP 云标准版，高级版和 BYOL 结合使用时，支持更高的写入性能。</block>
+  <block id="13162bf30327abdba3d09f8e1c60b64e" category="list-text">ONTAP 云标准版，高级版和 BYOL 支持数据分层。</block>
+  <block id="11f741fe0ee39ada647e4516d0574ff2" category="list-text">如果启用数据分层、系统的容量限制将保持不变。容量限制包括磁盘和对象存储。</block>
+  <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 全球地区</block>
+  <block id="cb104b2dcdc78de65cc73aeaefde0837" category="list-text">有关 AWS 区域支持，请参见<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
+  <block id="32ced4ad9724b29c3509b663ee4658c7" category="section-title">适用于 Azure 的 ONTAP 云</block>
+  <block id="aec43df3118114472b9dabb21326a8ae" category="paragraph">在 Azure 中，您可以将 ONTAP 云部署为单节点系统。</block>
+  <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">虚拟机类型</block>
+  <block id="2be187f608e3ad4af24d83ba1557f439" category="cell">DS3_v2</block>
+  <block id="83eca86ff243df4e1646a92d7c304973" category="list-text">DS4_v2</block>
+  <block id="1388ff45ca6939d3ddda6032143844f9" category="list-text">DS13_v2</block>
+  <block id="d5dcfd54bc69651d879cec73cf9d8daa" category="list-text">DS5_v2</block>
+  <block id="b72144fa0a4e25809ce8fa02430673a7" category="list-text">DS14_v2</block>
+  <block id="50bb513ae39b44421d182e4072a83998" category="cell">标准 HDD 受管磁盘，标准 SSD 受管磁盘和高级 SSD 受管磁盘，每个磁盘最多 32 TiB</block>
+  <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">在将 Azure 高级存储磁盘与 ONTAP 云标准版，高级版和 BYOL 结合使用时，支持更高的写入性能，但在使用 DS3_v2 虚拟机类型时则不支持。</block>
+  <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">有关 Azure 区域支持，请参见<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="7553878dc46732eb783fa42399198626" category="inline-link">ONTAP Cloud 9.3 注意事项</block>
+  <block id="195462dd865e0cfbe35a3474431836db" category="list-text"><block ref="195462dd865e0cfbe35a3474431836db" category="inline-link-rx"></block></block>
+  <block id="bf7dcf6467a8a03b05b2d37d31d6eccd" category="inline-link">ONTAP 9.3 注意事项</block>
+  <block id="2d4c47b98784bbcb56e001a01d7b9bb2" category="list-text"><block ref="2d4c47b98784bbcb56e001a01d7b9bb2" category="inline-link-rx"></block></block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
+  <block id="1ac484b7039a7a63fa107c6b607c9db1" category="section-title">一般限制</block>
+  <block id="b39d3577cc712ce886fc09bbe998ccab" category="paragraph">以下限制适用于 AWS 和 Azure 中的 ONTAP 云。</block>
+  <block id="4ab1be901507467113ec58325fc4e033" category="section-title">最大并发复制操作数</block>
+  <block id="55daffc7827b6ec74240106a8f647473" category="paragraph">无论实例类型或计算机类型如何， Cloud Volumes ONTAP 的并发 SnapMirror 或 SnapVault 传输的最大数量均为每个节点 100 。</block>
+  <block id="1d7a5501cfb31aff808abb63ef9085c2" category="section-title">软件更新必须由 Cloud Manager 完成</block>
+  <block id="93e3c3d0ea43d600b3c3cd4548ea3987" category="paragraph">Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。</block>
+  <block id="3025339147261c7f73e0b6df943d2d01" category="section-title">启动磁盘和根磁盘不支持加密</block>
+  <block id="177117fbb321113a54fc190ebcd2d986" category="paragraph">如果您启用了云提供商提供的一个选项，用于自动加密所有新卷或磁盘，则在部署 ONTAP 云时必须临时禁用此选项。否则， ONTAP 云的部署将失败。ONTAP 云系统的启动磁盘和根磁盘不支持加密。</block>
+  <block id="79da11b6b41ffc6c6c6fab1c74ab20e4" category="section-title">不得从云提供商的控制台修改 ONTAP 云部署</block>
+  <block id="b3cb2123a9008ed93517887faef83c51" category="paragraph">通过云提供商的控制台更改 ONTAP 云配置会导致配置不受支持。Cloud Manager 创建和管理的 ONTAP 云资源的任何更改都会影响系统稳定性以及 Cloud Manager 管理系统的能力。</block>
+  <block id="871cdf07a10d1cc27cb3166e7a820a66" category="section-title">磁盘和聚合必须通过 Cloud Manager 进行管理</block>
+  <block id="dbdb55d3acfbb139cd66db544b19d738" category="paragraph">必须直接从 Cloud Manager 创建和删除所有磁盘和聚合。不应从其他管理工具执行这些操作。这样做可能会影响系统稳定性、妨碍将来添加磁盘的能力、并可能产生冗余云提供商费用。</block>
+  <block id="4d2719ea5599a5bf1a9973d3b247f959" category="section-title">SnapManager 许可限制</block>
+  <block id="597d549c4528fd1014dfc9a36581e1e9" category="paragraph">ONTAP 云支持 SnapManager 每服务器许可证。不支持每存储系统（ SnapManager 套件）许可证。</block>
+  <block id="c3f5fdee9b6adb6eccff2d4c189ead12" category="section-title">不支持的 ONTAP 功能</block>
+  <block id="d11287ca8c12d850cc15aa766f9ac462" category="paragraph">ONTAP 云不支持以下功能：</block>
+  <block id="a031ea731cd3c4992b7f33bad9f72a00" category="list-text">聚合级实时重复数据删除</block>
+  <block id="98e2e51de88bd2dae78a66fdad91936c" category="list-text">聚合级后台重复数据删除</block>
+  <block id="5873635ff256383dcb0b47a0e49f71b1" category="list-text">磁盘维护中心</block>
+  <block id="ddf5f13c3a2f670d7fd623c41af1d112" category="list-text">磁盘清理</block>
+  <block id="5903a917b575023b60264c602c220771" category="list-text">光纤通道（ FC ）</block>
+  <block id="19f331bf338a964b49dd874ec165f553" category="list-text">Flash Pool</block>
+  <block id="f24ce81f056d5acd59788df7f5ab36a1" category="list-text">FlexCache</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="list-text">FlexGroup 卷</block>
+  <block id="f8f6de059b38ff18eef47014d953c662" category="list-text">无限卷</block>
+  <block id="09ab988c99cc61af08cebf0d39a00ac5" category="list-text">接口组</block>
+  <block id="ac140a63a61ac75e47b5b4ef17eec52d" category="list-text">索引节点 LIF 故障转移</block>
+  <block id="1749d12df3df2319d3eee218a277ff83" category="list-text">MetroCluster</block>
+  <block id="b55b56ade65204a678bf4727dbda623f" category="list-text">多租户（仅支持一个提供数据的 SVM ）</block>
+  <block id="c4b8c29f448328e82ce27062b5fd9c28" category="list-text">NetApp 卷加密</block>
+  <block id="951de4e4bdae5ad5598a048ed6a6f1e3" category="list-text">RAID4 ， RAID-DP ， RAID-TEC （支持 RAID0 ）</block>
+  <block id="0ec5130d573357ea4d244f018e39ae85" category="list-text">服务处理器</block>
+  <block id="acdc6b4f6edd40f37bce01247a32ff86" category="list-text">SnapLock</block>
+  <block id="974658d7ac018cb945e78365b0a760fb" category="list-text">SnapMirror 同步</block>
+  <block id="87495e311a3944910e3cc0c7bee3d754" category="list-text">VLAN</block>
+  <block id="c05b99ea66da2025b377f089fb69b4f5" category="section-title">AWS 中 ONTAP 云的已知限制</block>
+  <block id="ef9e5a195f2165ea9c4e28771b6e4be2" category="paragraph">以下已知限制会影响 AWS 中的 ONTAP 云。</block>
+  <block id="c564897ef3b9328940c3edd5bc917926" category="section-title">Amazon CloudWatch 报告错误警报</block>
+  <block id="0207304dc0fac79583ab4e93e140e455" category="paragraph">ONTAP 云不会在空闲时释放 CPU ，因此 Amazon CloudWatch 可以为 EC2 实例报告高 CPU 警告，因为它会看到 100% 的使用率。您可以忽略此警报。ONTAP statistics 命令可显示 CPU 的实际使用情况。</block>
+  <block id="f34c79a463961fe2ed67a453e6c8b4bf" category="section-title">ONTAP 云 HA 对不支持即时存储交还</block>
+  <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">节点重新启动后，配对节点必须先同步数据，然后才能返回存储。重新同步数据所需的时间取决于节点关闭时客户端写入的数据量以及交还期间的数据写入速度。</block>
+  <block id="9a90be0279d86ec235a377a69c0265b1" category="section-title">AWS Govloud （美国）地区的限制</block>
+  <block id="cb272a6dc5e534974a2ae26644e5635f" category="list-text">如果要在任何 AWS GovCloud （ US ）区域启动 Cloud Volumes ONTAP 实例，则必须在 AWS GovCloud （ US ）区域部署 Cloud Manager 。</block>
+  <block id="43a81dc93c1a3bd801620774bec57e73" category="list-text">AWS GovCloud （美国）区域不支持 ONTAP 云按需购买 AMI 。</block>
+  <block id="af42a8f64444f18c249df7b02bd832b9" category="list-text">当部署在 AWS 政府云（美国）区域时、 Cloud Manager 无法在适用于 Microsoft Azure 配置的 NetApp 私有存储或适用于 SoftLayer 配置的 NetApp 私有存储中发现 ONTAP 集群。</block>
+  <block id="916b99a311a21768c98adaa376c7b711" category="section-title">不支持断开和重新连接 EBS 卷</block>
+  <block id="3aaa917b04d268d2b6ea8d5443e69ed1" category="paragraph">不支持将 EBS 卷从 ONTAP 云实例断开，然后将其重新连接到另一个 ONTAP 云实例。您应使用 Cloud Manager 在实例之间复制数据。</block>
+  <block id="2cc62620c228ce169a39b075837e0e5a" category="section-title">加密限制</block>
+  <block id="4be7c99cc4f32c3c625df57a663c9fda" category="list-text">启用了 ONTAP 云加密的系统不支持 LUN 移动。</block>
+  <block id="7c3219a6e60034a457ba203e3497fbcc" category="list-text">即使对于无法创建的聚合， ONTAP 云也会向密钥管理器发送加密密钥。</block>
+  <block id="e6cd7708d37be14be1ec14b31818d9c9" category="paragraph">您必须手动从密钥管理器中删除密钥。</block>
+  <block id="f76ce12d7e5a00c1e2cd8f8e648b2a73" category="section-title">Azure 中 ONTAP 云的已知限制</block>
+  <block id="8d0b87170877a44e9ee77556da1f6495" category="paragraph">以下已知限制会影响 Azure 中的 ONTAP 云。</block>
+  <block id="074d9c5e0ad789ed9e36a086198eb20a" category="section-title">ONTAP 云按需购买不适用于 CSP 合作伙伴</block>
+  <block id="4fb56e49eed9f9cf44c3cec74fe10122" category="paragraph">如果您是 Microsoft Cloud 解决方案提供商（ CSP ）合作伙伴，则无法部署 ONTAP Cloud Explore ，标准版或高级版，因为 CSP 合作伙伴不支持按需购买订阅。您必须购买许可证并部署 ONTAP 云 BYOL 。</block>
+  <block id="01653a1514615b9642596ec8a1d07e3e" category="summary">新版本的 ONTAP 云引入了新功能，增强功能和错误修复。</block>
+  <block id="c678a52774fa882a82a7be18eeee82cb" category="doc">ONTAP Cloud 9.3 中的新增功能</block>
+  <block id="06a91767fc122f0b847bf2303af9101d" category="paragraph">ONTAP Cloud 9.3 包括多项新功能和增强功能。</block>
+  <block id="717c1fe37061a1a759e7203e61787cd6" category="section-title">AWS 中的 ONTAP 云 HA 增强功能</block>
+  <block id="3480aee6aa58df9e0e9dbb38b84c614a" category="paragraph">9.3 版介绍了 ONTAP 云 HA 对的故障恢复能力，可以在 AWS 生态系统中承受网络故障或瞬时较高的延迟，并确保客户数据在此类事件期间可用。</block>
+  <block id="1101bc5dbfc89615c41afb432bdd34d5" category="section-title">支持 AWS 中的欧盟（巴黎）地区</block>
+  <block id="2a29da454384fcfbc406c3b861eae014" category="paragraph">ONTAP 云现在在 AWS 的欧盟（巴黎）地区受支持。根据此区域支持的实例类型，欧盟（巴黎）地区提供了以下 ONTAP 云配置：</block>
+  <block id="870b293eb2505fe3368ed925b8306560" category="list-text">ONTAP 云标准（ R4.xlarge ）</block>
+  <block id="486dbeccf98aa83838e74d9b90666910" category="list-text">ONTAP 云高级版（ r4.2xlarge ）</block>
+  <block id="70ff18336f82f3d20c410b7699dcc96b" category="list-text">ONTAP 云 BYOL （ r4.xlarge 和 r4.2xlarge ）</block>
+  <block id="a32876dfd9bdf513847afeab46434971" category="section-title">增强了 Azure Premium 磁盘的写入性能</block>
+  <block id="bd5ddc6ac5d1f7e712d0aae97150b0fd" category="paragraph">使用高级存储磁盘时， ONTAP 云的写入性能已在 Azure 中得到提高。ONTAP 云标准版，高级版和 BYOL 支持此增强功能。</block>
+  <block id="49ce3c072e30d902ec1b34944f949463" category="admonition">使用 DS3_v2 虚拟机类型时，不支持写入性能增强功能。</block>
+  <block id="6f135a88353201374d728312b717f0d0" category="section-title">增加了 Azure 中 ONTAP 云高级版和 BYOL 的容量限制</block>
+  <block id="9b9693049f21769eb704217dcd22577b" category="paragraph">使用 DS5_v2 或 DS14_v2 虚拟机类型时， ONTAP 云高级版和 ONTAP 云 BYOL 的容量限制已增加一倍，达到 252 TB 。</block>
+  <block id="2e71f95c15dcfe366a63185a20b979ad" category="admonition">之所以能够进行此更改，是因为每个 Azure 虚拟机的可用磁盘数量有所增加。它不会更改每个聚合的最大容量。</block>
+  <block id="c05ff147467161f1b504adebce0cae40" category="section-title">支持 Azure US Gov 地区</block>
+  <block id="e35dc9532c39726f1a90e47c3a95f34e" category="paragraph">现在，您可以在以下 Azure 地区部署 Cloud Manager 和 ONTAP Cloud BYOL ：</block>
+  <block id="fe729f954754c3b607fbb5f9bf109bb3" category="list-text">美国亚利桑那州政府</block>
+  <block id="c7aad6b569ebf354dd3c0fe637f91e5a" category="list-text">美国政府德克萨斯</block>
+  <block id="c13d0e30fd62b9a062da50add3af207e" category="list-text">美国弗吉尼亚州</block>
+  <block id="31e77e1a551dab6d964b288a0b879e58" category="paragraph">要在这些地区部署 Cloud Manager ，您必须从 Azure Marketplace 创建 CentOS 7.3 虚拟机，从 NetApp 支持站点下载 Cloud Manager 安装程序，然后安装软件。运行 Cloud Manager 后，您可以像任何其他区域一样在这些区域部署 ONTAP 云 BYOL 系统。</block>
+  <block id="c8b42d90c0b1e777dcf532cb530e7cdb" category="section-title">支持 SVM 灾难恢复</block>
+  <block id="9b4bed0881e3654290a880c61a0a8adf" category="paragraph">ONTAP 云支持一个提供数据的 SVM 和一个用于灾难恢复的目标 SVM 。如果源 SVM 发生中断，您可以激活目标 SVM 以进行数据访问。</block>
+  <block id="df74876976170ec27accb2a084d9532e" category="paragraph">SVM 灾难恢复是将 SVM 数据和配置从源 SVM 异步镜像到目标 SVM 的过程。如果源 SVM 不再可用，您可以快速激活目标 SVM 以进行数据访问。</block>
+  <block id="a7659117c7517b7f23ad1798b5a53c3d" category="admonition">Cloud Manager 不为 SVM 灾难恢复提供任何设置或业务流程支持。它也不支持在任何其他 SVM 上执行与存储相关的任务。必须使用 System Manager 或 CLI 进行 SVM 灾难恢复。</block>
+  <block id="412af2a2404a4e920b18be59197204b0" category="inline-link">《 SVM 灾难恢复准备快速指南》</block>
+  <block id="c15bb50c43eaf0ceb1bc0ce3d7503ebd" category="paragraph"><block ref="c15bb50c43eaf0ceb1bc0ce3d7503ebd" category="inline-link-rx"></block></block>
+  <block id="a06e9c241b02eb678d35f19c0eec257f" category="inline-link">《 SVM 灾难恢复快速指南》</block>
+  <block id="84e6a974fd77c552b4d54c8a9b0727ab" category="paragraph"><block ref="84e6a974fd77c552b4d54c8a9b0727ab" category="inline-link-rx"></block></block>
+  <block id="b5cb41a6703cf18b4cecd5a0817f91cf" category="section-title">升级说明</block>
+  <block id="a3989974582bd51e705fcb9449a7185d" category="list-text">必须从 Cloud Manager 完成升级。您不应使用 System Manager 或命令行界面升级 ONTAP 云。这样做可能会影响系统稳定性。</block>
+  <block id="201bc9587a8b00034e50b14ea2bdb149" category="list-text">您可以从 ONTAP Cloud 9.2 升级到 ONTAP Cloud 9.3 。</block>
+  <block id="9f0f02784feedfa2549a9e3a51cfa315" category="list-text">升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。</block>
+  <block id="00795e3f043d0bab791590ffc0257204" category="list-text">升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。</block>
+  <block id="b7146193748c9abe7b57ee8d1a61e329" category="summary">ONTAP 云具有存储配置限制，可提供可靠的操作。为获得最佳性能，请勿将系统配置为最大值。</block>
+  <block id="150a34e7bbdf7765066eae5fadb9f919" category="doc">存储限制</block>
+  <block id="4044d85e7b76a3d297b700c150a40918" category="paragraph">以下各节列出了聚合，卷， LUN 和相关存储对象的限制。请注意， ONTAP 云系统的最大容量取决于型号。支持较低原始容量限制的 ONTAP 云配置无法达到某些大小和磁盘限制。</block>
+  <block id="bb26a89afcfb38667928a2a366f342dc" category="section-title">AWS 中 ONTAP 云的物理存储限制</block>
+  <block id="95cf25e2a61c86e4040b221c03b8ae9c" category="cell">物理存储</block>
+  <block id="83f499a540b1323009c200d6f8cc9396" category="cell">参数</block>
+  <block id="80d2677cf518f4d04320042f4ea6c146" category="cell">limit</block>
+  <block id="2eb2ec48ff8e6aca4ad2ebb6ed236ad8" category="cell">* 聚合和磁盘 *</block>
+  <block id="82420b01cfee82b0c54b049d0dbfad9f" category="cell">聚合的最大数量</block>
+  <block id="132b9480aa78f86685207b541b60eba1" category="cell">34 对于单节点配置，在 HA 配置中，每个节点 18 ^1^</block>
+  <block id="fb036cbd7d294e0cb30d09908d1a5107" category="cell">最大聚合大小</block>
+  <block id="a204f172aa7caebd3b3b2b9d2ec1e132" category="cell">96 TiB 原始容量</block>
+  <block id="c540b9e7edec4adafdaa9dff60f7a893" category="cell">每个聚合的磁盘数</block>
+  <block id="d21008939e91fc2c87c5bd73ce61f11d" category="cell">1-6 ^2^</block>
+  <block id="4b4891ea5a4ccf6a32baf317c31a9391" category="cell">最大磁盘大小</block>
+  <block id="ec74a96b5afa8d112b06af3bec8272c2" category="cell">16 TiB</block>
+  <block id="330801eec68c902d096505dce2047222" category="cell">所有聚合中的最大数据磁盘数 ^3^</block>
+  <block id="7e0dd5b4cf88ccff8b1568ee90eef6e8" category="cell">34 对于单节点配置，在 HA 配置中，每个节点 31 个</block>
+  <block id="a7dc3cf40fc3dbedc1ebc28cf91eda4d" category="cell">* RAID 组 *</block>
+  <block id="dbd356a5b5e1ba37820f09c9f2a2d60a" category="cell">每个聚合的上限</block>
+  <block id="c4ca4238a0b923820dcc509a6f75849b" category="cell">1.</block>
+  <block id="d1fbeaa75f4f2a9514bcd729f6b07b0d" category="list-text">无法在 HA 对中的两个节点上创建 18 个聚合，因为这样做会超出数据磁盘限制。</block>
+  <block id="a40e4d3ab198f5d9c9e23e409e7abae3" category="list-text">聚合中的所有磁盘大小必须相同。</block>
+  <block id="6d81b5c2163d9f1acadd87489bc3f0d8" category="list-text">数据磁盘限制特定于包含用户数据的磁盘。此限制不包括每个节点的启动磁盘和根磁盘。</block>
+  <block id="a92ba6792f9853072e9870e12b13f14a" category="section-title">Azure 中 ONTAP 云的物理存储限制</block>
+  <block id="03afdbd66e7929b125f8597834fa83a4" category="cell">63.</block>
+  <block id="fbc4399b9fc335570d967196eccf7968" category="cell">200 TiB 原始容量</block>
+  <block id="14ec5ad7468995ef9509b7b8677f5599" category="cell">1-12 ^1^</block>
+  <block id="d556a98bff3e1e758e87dd72b174feca" category="cell">32 TiB</block>
+  <block id="96f22c61376cbcef17e4f0717e8988ec" category="cell">所有聚合中的最大数据磁盘数 ^2^</block>
+  <block id="3e96a4bdfa8031603ede440ecdb76f93" category="list-text">DS3_v2 ： 15</block>
+  <block id="d8bd73ec57187ec1bd4c464764bfcb4a" category="list-text">DS4_v2 ： 31</block>
+  <block id="87194571bdb3c163825f541c1ff9d4a8" category="list-text">DS5_v2 ： 63</block>
+  <block id="9bdffb453a5fc3f9861b9626617a650d" category="list-text">DS13_v2 ： 31</block>
+  <block id="173509483cf303b1e6063ea0208f04b0" category="list-text">DS14_v2 ： 63</block>
+  <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">逻辑存储限制</block>
+  <block id="609158be2075d0d9724b333b2cf217be" category="cell">逻辑存储</block>
+  <block id="73a985be794327e4a037c64d0184774a" category="cell">* 存储虚拟机（ SVM ） *</block>
+  <block id="df554467f487a724095030a24683021b" category="cell">ONTAP 云的最大数量（ HA 对或单个节点）</block>
+  <block id="22582156bad3d0a2f7e7e37b620d6825" category="cell">一个提供数据的 SVM 和一个用于灾难恢复的目标 SVM 。如果源 SVM 发生中断，您可以激活目标 SVM 以进行数据访问。^1^ 一个提供数据的 SVM 跨整个 ONTAP 云系统（ HA 对或单个节点）。</block>
+  <block id="ada4ff97f4dda398688956bbaf1ce0aa" category="cell">* 文件 *</block>
+  <block id="acfc7717e24258e6355ba4036bf1654d" category="cell">最大大小</block>
+  <block id="5fde77af1cc98552a17479ea4938c6ed" category="cell">每个卷的上限</block>
+  <block id="6658f671a312c005fd3f0bde5aaba9ae" category="cell">取决于卷大小，最多 20 亿个</block>
+  <block id="acc9d26dccf8fcf5c9981e0276173b11" category="cell">* FlexClone 卷 *</block>
+  <block id="fa6258f6bacddead986c2cbf9e97e512" category="cell">分层克隆深度 ^2^</block>
+  <block id="3cf166c6b73f030b4f67eeaeba301103" category="cell">499</block>
+  <block id="d8d8f4430afb6c5dda89bc1fbd1911b8" category="cell">* FlexVol 卷 *</block>
+  <block id="02987178f371226dd1e6ace7f7e0b273" category="cell">每个节点的上限</block>
+  <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
+  <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">最小大小</block>
+  <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
+  <block id="d10365266fe1f35502445b7acb304f69" category="cell">AWS ：取决于聚合的大小 ^3^ Azure ： 100 TiB</block>
+  <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">* qtree*</block>
+  <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">每个 FlexVol 卷的上限</block>
+  <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995</block>
+  <block id="1a07b3809a1ae9afeb461f935181ced5" category="cell">* Snapshot 副本 *</block>
+  <block id="fe131d7f5a6b38b23cc967316c13dae2" category="cell">255-255</block>
+  <block id="f930216066584d74a1d100b4781661f9" category="list-text">Cloud Manager 不为 SVM 灾难恢复提供任何设置或业务流程支持。它也不支持在其他 SVM 上执行与存储相关的任务。必须使用 System Manager 或 CLI 进行 SVM 灾难恢复。</block>
+  <block id="b4eacaee3fd29fd401387ce7ccd891ae" category="list-text">分层克隆深度是可以从单个 FlexVol 卷创建的 FlexClone 卷嵌套层次结构的最大深度。</block>
+  <block id="878a0744735c40dd8cf5831bd9d1d54d" category="list-text">支持的容量小于 100 TiB ，因为此配置的聚合限制为 96 TiB _raw_ 容量。</block>
+  <block id="ec8aa8d5c4770248f40bea57751b61ef" category="section-title">iSCSI 存储限制</block>
+  <block id="a00bd30f35d2e0308f1c006da5cee5f6" category="cell">iSCSI 存储</block>
+  <block id="10c47847009b4c424d942318791fd6ff" category="cell">* LUN *</block>
+  <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1,024</block>
+  <block id="65da019cf34a472cbf71786c4ca724c0" category="cell">LUN 映射的最大数量</block>
+  <block id="10a7cdd970fe135cf4f7bb55c0e3b59f" category="cell">512</block>
+  <block id="bb1780abec6df99659ba08adda027cab" category="cell">* igroup*</block>
+  <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
+  <block id="28744ac550329e87641062231651a872" category="cell">* 启动程序 *</block>
+  <block id="dec03d5b1ceadd3a6f07097ef203fcdb" category="cell">每个 igroup 的最大值</block>
+  <block id="76dc611d6ebaafc66cc0879c71b5db5c" category="cell">128.</block>
+  <block id="50f3dc313c9f274380529358d5ea6650" category="cell">* iSCSI 会话 *</block>
+  <block id="d454388b41e56cfc66661cf1c85b8be8" category="cell">* LIF*</block>
+  <block id="107778c598e69e673409276fc9a0543d" category="cell">每个端口的上限</block>
+  <block id="6364d3f0f495b6ab9dcf8d3b5c6e0b01" category="cell">32</block>
+  <block id="aa894911c7a20e27572cf7a8c1e15231" category="cell">每个端口集的最大值</block>
+  <block id="7c8102fb403c417ae4b6e28c0e3352ba" category="cell">* 端口集 *</block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">已知问题可确定可能妨碍您成功使用此版本产品的问题。</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">已知问题</block>
+  <block id="06771acbf463cd61bfb4131e0b8b6f69" category="paragraph">此版本中没有特定于 ONTAP 云的已知问题。</block>
+  <block id="626a7cbe056796bcb1c158b143866230" category="inline-link">《 ONTAP 发行说明》</block>
+  <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">您可以在中找到 ONTAP 软件的已知问题<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
+  <block id="8d3d4f13602cd5a25a775931599b70ea" category="summary">本发行说明介绍了 ONTAP Cloud 9.3 的新增功能，限制和已知问题。</block>
+  <block id="d5e6ac2df92a695122340bdc7757b16e" category="doc">《 ONTAP Cloud 9.3 发行说明》</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
+  <block id="e19968c5ebc4b94a271992f4b0563be8" category="sidebar">配置和限制</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="sidebar">限制</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
+  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
+</blocks>
