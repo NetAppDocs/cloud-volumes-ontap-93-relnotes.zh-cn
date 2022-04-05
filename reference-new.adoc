@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-new.html 
 keywords: 'what"s new, new, features, release notes, enhancements' 
-summary: 新版本的 ONTAP 云引入了新功能，增强功能和错误修复。 
+summary: ONTAP Cloud 9.3 包括多项新功能和增强功能。 
 ---
 = ONTAP Cloud 9.3 中的新增功能
 :hardbreaks:
