@@ -6,6 +6,7 @@ summary: ONTAP 云具有存储配置限制，可提供可靠的操作。为获�
 ---
 = 存储限制
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
