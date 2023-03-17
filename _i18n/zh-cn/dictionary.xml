@@ -115,11 +115,6 @@
   <block id="4be7c99cc4f32c3c625df57a663c9fda" category="list-text">启用了 ONTAP 云加密的系统不支持 LUN 移动。</block>
   <block id="7c3219a6e60034a457ba203e3497fbcc" category="list-text">即使对于无法创建的聚合， ONTAP 云也会向密钥管理器发送加密密钥。</block>
   <block id="e6cd7708d37be14be1ec14b31818d9c9" category="paragraph">您必须手动从密钥管理器中删除密钥。</block>
-  <block id="f76ce12d7e5a00c1e2cd8f8e648b2a73" category="section-title">Azure 中 ONTAP 云的已知限制</block>
-  <block id="8d0b87170877a44e9ee77556da1f6495" category="paragraph">以下已知限制会影响 Azure 中的 ONTAP 云。</block>
-  <block id="074d9c5e0ad789ed9e36a086198eb20a" category="section-title">ONTAP 云按需购买不适用于 CSP 合作伙伴</block>
-  <block id="4fb56e49eed9f9cf44c3cec74fe10122" category="paragraph">如果您是 Microsoft Cloud 解决方案提供商（ CSP ）合作伙伴，则无法部署 ONTAP Cloud Explore ，标准版或高级版，因为 CSP 合作伙伴不支持按需购买订阅。您必须购买许可证并部署 ONTAP 云 BYOL 。</block>
-  <block id="01653a1514615b9642596ec8a1d07e3e" category="summary">新版本的 ONTAP 云引入了新功能，增强功能和错误修复。</block>
   <block id="c678a52774fa882a82a7be18eeee82cb" category="doc">ONTAP Cloud 9.3 中的新增功能</block>
   <block id="06a91767fc122f0b847bf2303af9101d" category="paragraph">ONTAP Cloud 9.3 包括多项新功能和增强功能。</block>
   <block id="717c1fe37061a1a759e7203e61787cd6" category="section-title">AWS 中的 ONTAP 云 HA 增强功能</block>
@@ -251,4 +246,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
+  <block id="8ba7e9fc95ff683b40e7c59130ea44da" category="sidebar">其他版本</block>
 </blocks>
