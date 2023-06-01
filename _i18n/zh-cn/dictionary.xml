@@ -234,7 +234,6 @@
   <block id="398d7dd4fa02e30dc6322ad98eff7d2b" category="paragraph">您可以在中找到 ONTAP 软件的已知问题<block ref="13c0668cefb5d13050e1de01793dacbb" category="inline-link-rx"></block>。</block>
   <block id="8d3d4f13602cd5a25a775931599b70ea" category="summary">本发行说明介绍了 ONTAP Cloud 9.3 的新增功能，限制和已知问题。</block>
   <block id="d5e6ac2df92a695122340bdc7757b16e" category="doc">《 ONTAP Cloud 9.3 发行说明》</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
@@ -246,4 +245,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
 </blocks>
