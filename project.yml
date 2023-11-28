@@ -80,4 +80,7 @@ homepage:
     - title: Cloud Central 博客
       url: https://cloud.netapp.com/blog
     - title: 云网络研讨会
-      url: https://cloud.netapp.com/events
+      url: https://cloud.netapp.com/event
+product-family:
+  name: BlueXP
+  repo: bluexp-family
