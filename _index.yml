@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: "《 ONTAP Cloud 9.3 发行说明》"
+  title: ONTAP Cloud 9.3发行说明
   summary: 本发行说明介绍了 ONTAP Cloud 9.3 的新增功能，限制和已知问题。
   keywords: cloud volumes ontap, licensing, security, release notes, storage, data
     protection, configuration, upgrade, encryption, cvo, 93
