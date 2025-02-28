@@ -32,7 +32,6 @@
   <block id="13162bf30327abdba3d09f8e1c60b64e" category="list-text">ONTAP 云标准版，高级版和 BYOL 支持数据分层。</block>
   <block id="11f741fe0ee39ada647e4516d0574ff2" category="list-text">如果启用数据分层、系统的容量限制将保持不变。容量限制包括磁盘和对象存储。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 全球地区</block>
-  <block id="cb104b2dcdc78de65cc73aeaefde0837" category="list-text">有关 AWS 区域支持，请参见<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
   <block id="32ced4ad9724b29c3509b663ee4658c7" category="section-title">适用于 Azure 的 ONTAP 云</block>
   <block id="aec43df3118114472b9dabb21326a8ae" category="paragraph">在 Azure 中，您可以将 ONTAP 云部署为单节点系统。</block>
   <block id="5fbb3d7412f89cff55389171f83d7684" category="cell">虚拟机类型</block>
@@ -43,7 +42,6 @@
   <block id="b72144fa0a4e25809ce8fa02430673a7" category="list-text">DS14_v2</block>
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">标准 HDD 受管磁盘，标准 SSD 受管磁盘和高级 SSD 受管磁盘，每个磁盘最多 32 TiB</block>
   <block id="aa9528fad85cffe83be0372dc56e2966" category="list-text">在将 Azure 高级存储磁盘与 ONTAP 云标准版，高级版和 BYOL 结合使用时，支持更高的写入性能，但在使用 DS3_v2 虚拟机类型时则不支持。</block>
-  <block id="f1d030b53e2e410016e67d8d3b5484c4" category="list-text">有关 Azure 区域支持，请参见<block ref="ac98146aa56916be7717a50257418923" category="inline-link-rx"></block>。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
@@ -246,4 +244,6 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="f9a77fb7fd4e4f366ad7adb32159b4b0" category="sidebar">ONTAP Cloud 9.3发行说明</block>
+  <block id="9e6aaceebf3e3ad831b702e903ff9333" category="list-text">有关AWS区域支持，请参见<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>。</block>
+  <block id="e7b769b353d56a6c381d67f5a632c000" category="list-text">有关Azure区域支持，请参见<block ref="b1f7a3157f8c754c9d3157099510954f" category="inline-link-rx"></block>。</block>
 </blocks>

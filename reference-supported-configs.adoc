@@ -61,7 +61,7 @@ ONTAP 云在 AWS 和 Azure 中提供两种定价选项：按需购买和自带�
 . 在将 EBS SSD 与 ONTAP 云标准版，高级版和 BYOL 结合使用时，支持更高的写入性能。
 . ONTAP 云标准版，高级版和 BYOL 支持数据分层。
 . 如果启用数据分层、系统的容量限制将保持不变。容量限制包括磁盘和对象存储。
-. 有关 AWS 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"]。
+. 有关AWS区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"]。
 
 
 
@@ -101,5 +101,5 @@ ONTAP 云在 AWS 和 Azure 中提供两种定价选项：按需购买和自带�
 注释：
 
 . 在将 Azure 高级存储磁盘与 ONTAP 云标准版，高级版和 BYOL 结合使用时，支持更高的写入性能，但在使用 DS3_v2 虚拟机类型时则不支持。
-. 有关 Azure 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"]。
+. 有关Azure区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"]。
 
